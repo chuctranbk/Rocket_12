@@ -28,7 +28,7 @@ CREATE TABLE nhanvien
   FullName varchar(50),
   BirthDate DATE,
   Gender ENUM ('male', 'female', 'unknown'),
-  IsDeletedFlag ENUM ('0', '1')
+  IsDeletedFlag ENUM('0', '1')
 );
 
 
